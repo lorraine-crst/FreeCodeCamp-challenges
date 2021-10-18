@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+    <main class=container>
+      <h1 id="title">Free code camp hacker cup 2021</h1>
+      <p id="description">The most awaited technology cup is to come, make your registration soon</p>
+    </h>
+  <form id="survey-form">
+    <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required/>   </div>
+    <div class="form-group">
+        <label id="email-label" for="mail">E-mail</label>
+        <input type="email" id="mail" placeholder="Enter your e-mail" required/>
+  </div>
+  <div class="form-group">
+        <label id="number-label" for="age">Age (optional)</label>
+        <input type="date" id="age" placeholder="Age"/>
+  </div>
+  <div class="form-group">
+        <p>What is your type of competence?</p>
+  <label><input type="radio" id="name">Student</label>
+  <label><input type="radio" id="name">Graduate</label>
+  <label><input type="radio" id="name">Teacher</label>
+  </div>
+  <div class="form-group">
+        <p>
+          What is your favorite project type?
+        </p>
+        <select id="most-like" required>
+          <option disabled selected value>Select an option</option>
+          <option value="challenges">Challenges</option>
+          <option value="projects">Projects</option>
+          <option value="community">Community</option>
+          <option value="openSource">Open Source</option>
+        </select>
+      </div>
+  <div class="form-group">
+        <p>what is your area of development?</p>
+  <label><input type="checkbox" class="input-checkbox"/>Web</label>
+  <label><input type="checkbox" class="input-checkbox"/>Desktop</label>
+  <label><input type="checkbox" class="input-checkbox"/>Mobile</label>
+  <label><input type="checkbox" class="input-checkbox"/>Web Design</label>
+  
+  <div class="form-group">
+        <p>Any comments or suggestions?</p>
+        <textarea id="comments" name="comment" placeholder="Enter your comment here..."></textarea>
+  
+  <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">
+          Submit
+        </button>
+      </div>
+  </form>
+  </body>
+  </html>

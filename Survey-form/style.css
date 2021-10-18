@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background: linear-gradient( 45deg, #6441A5, #2a0845);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  background: white;
+  max-width: 520px;
+  min-height: 50vh;
+  padding: 2rem;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0,.2);
+  border-radius: 8px;
+}
+
+h1{
+  font-weight: 600;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+p{
+  font-size: 5vh;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group{
+  position: relative;
+  outline: none;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  padding: 0.4rem;
+}
+
+
+.submit-button {background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%)}
+
+.submit-button{
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
