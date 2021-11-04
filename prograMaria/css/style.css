@@ -1,0 +1,118 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+      background-color: #cdb4db;
+      font-family: 'open-sans', sans-serif;
+      text-align: center;
+  }
+  
+  p{
+    color: #fefae0;
+    font-size: 1.3em;
+    line-height:1.5;
+  }
+  
+  h1{
+    color: #ffcdb2;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  
+  h2{
+    color: #dee2ff;
+    margin: 0.9em;
+    font-size: 2em;
+  }
+  
+  h3{
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 900;
+  }
+  
+  .infancia{
+    color: #1a759f;
+  }
+  
+  .juventude{
+    color: #34a0a4;
+  }
+  
+  .vida-adulta{
+    color: #1e6091;
+  }
+  
+  .ultimoh3{
+    color: #174B54 ;
+  }
+  
+  section{
+    margin: 0 auto;
+    width: 60%;
+  }
+  
+  section section{
+    width: 100%;
+  }
+  
+  img{
+    margin: 1em 0 1em 0;
+    width: 100%;
+  }
+  
+  ul{
+    line-height: 2;
+    list-style-type: none;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #243E57;
+    font-size: 1.3em;
+    font-weight: 700;
+  }
+  
+  .principal{
+    background-color: #ffb4a2;
+    height: 2,5rem;
+    max-width: 60%;
+    margin: 0.9rem auto;
+    border-radius: 2em;
+  }
+  
+  .principal li{
+    display: inline-block;
+    line-height: 2;
+    margin: 0 5em;
+  }
+  
+  .principal a{
+    color: whitesmoke;
+    text-decoration: underline;
+  }
+  
+  h4{
+    color: #7209b7;
+    margin: 1em 0;
+    font-size: 1.4em;
+  }
+  
+  input{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    display: flex;
+    margin: 0.9rem auto;
+    outline: 0;
+    text-align: center;
+  }
+  
+  label{
+    justify-content: center;
+    color: #3c096c;
+    font-weight: 700;
+  }
