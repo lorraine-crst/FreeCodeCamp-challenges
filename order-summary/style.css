@@ -8,6 +8,7 @@
 
 body{
     background-image: url(./images/pattern-background-desktop.svg);
+    background-size: contain;
     background-repeat: no-repeat;
     background-color: hsl(225deg 100% 94%);
     display: flex;
@@ -145,3 +146,8 @@ button{
     color: hsl(223deg 47% 23%);
 }
 
+@media only screen and (max-width:500px){
+    body{
+        background-image: url(./images/pattern-background-mobile.svg);
+    }
+}
