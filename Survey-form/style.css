@@ -85,7 +85,7 @@ form{
   padding: 0 0.5rem;
 }
 
-.submit-button {background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%)}
+.submit-button{background-image: linear-gradient(to right, #41762bbd 0%, #606c38 51%, #718355 100%);}
 
 .submit-button{
   margin: 10px;
